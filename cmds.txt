@@ -1,0 +1,44 @@
+roscore
+
+roslaunch fotbal fotbal.launch
+
+roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+
+roslaunch beginner_tutorials rino.launch
+
+roslaunch turtlebot3_slam turtlebot3_slam.launch
+
+$ export TURTLEBOT3_MODEL=${TB3_MODEL}
+$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+
+roslaunch turtlebot3_slam turtlebot3_slam.launch
+
+
+
+
+roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
+
+
+
+roslaunch fotbal fotbal.launch
+
+
+rqt_image_view
+
+
+roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+\
+[2:32 PM]
+roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
+[2:32 PM]
+roslaunch turtlebot3_slam turtlebot3_slam.launch
+
+
+----
+!**1.face harta  si mingea  *
+!**2.stabilik cum sa functioneze(camera )/////
+3.hardocam
+4.luam 5-u
+
+https://www.theconstructsim.com/make-robot-detect-and-avoid-an-obstacle/
+https://www.theconstructsim.com/ros-qa-053-how-to-move-a-robot-to-a-certain-point-using-twist/
